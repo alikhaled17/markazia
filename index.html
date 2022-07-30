@@ -16,6 +16,14 @@
       url("./assets/fonts/toyota/46520ab4f9b49d8358ed63f2354664c6.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
       url("./assets/fonts/toyota/46520ab4f9b49d8358ed63f2354664c6.svg#Toyota Display Bold") format("svg"); /* iOS 4.1- */
     }
+    @font-face {font-family: "Toyota Display Regular";
+      src: url("./assets/fonts/toyota/1ac36e54c1c9577fb0468937689adfd9.eot"); /* IE9*/
+      src: url("./assets/fonts/toyota/1ac36e54c1c9577fb0468937689adfd9.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./assets/fonts/toyota/1ac36e54c1c9577fb0468937689adfd9.woff2") format("woff2"), /* chrome、firefox */
+      url("./assets/fonts/toyota/1ac36e54c1c9577fb0468937689adfd9.woff") format("woff"), /* chrome、firefox */
+      url("./assets/fonts/toyota/1ac36e54c1c9577fb0468937689adfd9.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+      url("./assets/fonts/toyota/1ac36e54c1c9577fb0468937689adfd9.svg#Toyota Display Regular") format("svg"); /* iOS 4.1- */
+    }
 
     </style>
 
@@ -24,6 +32,7 @@
     <link rel="stylesheet" href="./styles/fonts.css" />
     <link rel="stylesheet" href="./styles/general.css" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/mobile-screen.css" />
 
     <link
       rel="shortcut icon"
@@ -50,17 +59,96 @@
             <p>Regular maintaenance is essential to obtaining the heighest level of performance</p>
           </div>
           <div class="block-action">
-            <img src="./assets/images/arrow-down-icon.png" alt="arrow-down-icon">
+            <a href="#block2">
+              <img src="./assets/images/arrow-down-icon.png" alt="arrow-down-icon">
+            </a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="block-2">
+    <div class="block-2" id="block2">
       <div class="container">
         <div class="main-block">
           <div class="custom-btn active">Vehicle Health Indicator</div>
           <div class="custom-btn">Current Status</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block-3">
+      <div class="container">
+        <div class="main-block">
+          <div class="gear-note">
+            <img src="./assets/images/big-gear.png" alt="big-gear">
+            <div class="note">Unsafe to Drive</div>
+          </div>
+          <div class="block-content">
+            <h2 class="result">
+              Results
+            </h2>
+            <ul>
+              <li class="info-list-item">
+                <div class="icon">
+                  <img src="./assets/images/block3-icons/braks.png" alt="braks">
+                </div>
+                <span>Brakes</span>
+                <small class="dot red"></small>
+              </li>
+              <li class="info-list-item">
+                <div class="icon">
+                  <img src="./assets/images/block3-icons/suspinsion.png" alt="braks">
+                </div>
+                <span>suspinsion</span>
+                <small class="dot red"></small>
+              </li>
+              <li class="info-list-item">
+                <div class="icon">
+                  <img src="./assets/images/block3-icons/interior.png" alt="braks">
+                </div>
+                <span>Interior</span>
+                <small class="dot red"></small>
+              </li>
+              <li class="info-list-item">
+                <div class="icon">
+                  <img src="./assets/images/block3-icons/steering.png" alt="braks">
+                </div>
+                <span>Steering</span>
+                <small class="dot red"></small>
+              </li>
+              <li class="info-list-item">
+                <div class="icon">
+                  <img src="./assets/images/block3-icons/power-train.png" alt="braks">
+                </div>
+                <span>Power Train</span>
+                <small class="dot red"></small>
+              </li>
+
+              <li class="info-list-item">
+                <div class="icon">
+                  <img src="./assets/images/block3-icons/engine.png" alt="braks">
+                </div>
+                <span>Engine</span>
+                <small class="dot red"></small>
+              </li>
+
+              <li class="info-list-item">
+                <div class="icon">
+                  <img src="./assets/images/block3-icons/cLutch.png" alt="braks">
+                </div>
+                <span>CLutch</span>
+                <small class="dot green"></small>
+              </li>
+
+              <li class="info-list-item">
+                <div class="icon">
+                  <img src="./assets/images/block3-icons/exterior.png" alt="braks">
+                </div>
+                <span>Exterior</span>
+                <small class="dot green"></small>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

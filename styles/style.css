@@ -1,8 +1,14 @@
     
 *{
   font-family:"Toyota Display Bold";
-  margin:0;padding:0;
+  margin:0;
+  padding:0;
   list-style:none;
+}
+
+html {
+  scroll-behavior: smooth;
+
 }
 
 .container {
@@ -23,15 +29,15 @@
 
 
 .block-1 .main-block {
-  border-radius: 115px; 
+  border-radius: 85px; 
   background: linear-gradient(to right, #231F2095, #780F2A95, #CB003395, #CB003395), url("../assets/images/01.png");
 
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 10% 8%;
-    display: flex;
-    justify-content: space-between;
-    box-shadow: rgb(0 30 37 / 9%) 0px 2px 4px 0px, rgb(0 30 37 / 32%) -20px 2px 16px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10% 8%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgb(0 30 37 / 9%) 0px 2px 4px 0px, rgb(0 30 37 / 32%) -20px 2px 16px 0px;
 }
 
 .block-1 .block-content {
@@ -39,13 +45,13 @@
 }
 
 .block-1 .block-content h1 {
-  font-size: 90px; 
+  font-size: 65px; 
   margin: 10px 0 !important;
 }
 
 .block-1 .block-content p {
-  font-size: 20px;
-  font-weight: normal;
+  font-size: 18px;
+  font-family: "Toyota Display Regular";
   width: 50%;
 }
 
@@ -56,7 +62,7 @@
 }
 
 .block-1 .block-action img {
-  width: 45%;
+  width: 30%;
   opacity: .8;
   transition: all .5s ease-in-out;
   cursor: pointer;
@@ -68,9 +74,14 @@
 }
 
 
+/* BLOCK 2 */
+/* BLOCK 2 */
+/* BLOCK 2 */
+/* BLOCK 2 */
+/* BLOCK 2 */
 
 .block-2 .main-block {
-  margin: 50px 0;
+  margin: 120px 0 50px;
   display: flex;
   justify-content: space-between;
   border-radius: 50px;
@@ -85,12 +96,106 @@
 .block-2 .main-block .custom-btn {
   width: 50%;
   padding: 2%;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
+  cursor: pointer;
 }
 
 .block-2 .main-block .custom-btn.active {
   background-color: #fff;
   color: #B71D34;
   border-radius: 50px;
+}
+
+
+
+/* BLOCK 3 */
+/* BLOCK 3 */
+/* BLOCK 3 */
+/* BLOCK 3 */
+/* BLOCK 3 */
+
+
+.block-3 .main-block  {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  border-radius: 50px;
+  box-shadow: rgb(0 30 37 / 9%) 0px 2px 4px 0px, rgb(0 30 37 / 32%) -20px 2px 16px 0px;
+}
+
+.block-3 .gear-note {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 55%;
+
+}
+
+.block-3 .gear-note img {
+  width: 80%;
+} 
+
+.block-3 .gear-note .note {
+  background-color: #B71D34;
+  color: #fff;
+  padding: 10px 20px;
+  font: 16px;
+  border-radius: 20px;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+
+
+.block-3 .block-content {
+  background-image: url("../assets/images/02.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 45%;
+}
+
+.block-3 .info-list-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0;
+  height: fit-content;
+}
+
+.block-3 .info-list-item .icon {
+  margin-right: 20px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
+
+.block-3 .info-list-item .icon img {
+  height: 100%;
+}
+
+.block-3 .info-list-item span {
+  width: 50%;
+}
+
+.block-3 .info-list-item .dot {
+  background-color: #000;
+  border-radius: 50%;
+  width: 15px;
+  height: 14px;
+  margin-left: 30%;
+}
+
+
+.block-3 .info-list-item .dot.green {
+  background-color: green;
+}
+.block-3 .info-list-item .dot.red {
+  background-color: #B71D34;
+}
+
+.block-3 .result {
+  color: #303C59;
 }
