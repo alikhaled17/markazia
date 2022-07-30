@@ -1,0 +1,68 @@
+    
+*{
+  font-family:"Toyota Display Bold";
+  margin:0;padding:0;
+  list-style:none;
+}
+
+.container {
+  width: 70%;
+  margin: 2% auto;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar img {
+  width: 10%;
+}
+
+
+
+.first-block .main-block {
+  border-radius: 115px; 
+  background: linear-gradient(to right, #231F2095, #780F2A95, #CB003395, #CB003395), url("../assets/images/01.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10% 8%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgb(0 30 37 / 9%) 0px 2px 4px 0px, rgb(0 30 37 / 32%) -20px 2px 16px 0px;
+}
+
+.first-block .block-content {
+  color: #fff;
+}
+
+.first-block .block-content h1 {
+  font-size: 90px; 
+  margin: 10px 0 !important;
+}
+
+.first-block .block-content p {
+  font-size: 20px;
+  font-weight: normal;
+  width: 50%;
+}
+
+.first-block .block-action {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.first-block .block-action img {
+  width: 45%;
+  opacity: .8;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+  margin-right: 10%;
+} 
+
+.first-block .block-action img:hover {
+  opacity: 1;
+}
