@@ -240,7 +240,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #303C59;
+    background-color: #242323;
     border-radius: 50px;
   }
   
@@ -257,6 +257,115 @@
     margin-left: 2%;
   }
   
+
+  /* BLOCK 5 */
+  /* BLOCK 5 */
+  /* BLOCK 5 */
+  /* BLOCK 5 */
+  /* BLOCK 5 */
+
+  
+  .block-5 .main-block {
+    margin: 80px 0 50px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    width: 100%;
+    background-color: #B71D34;
+    overflow: hidden;
+    color: #fff;
+    box-shadow: rgb(0 30 37 / 9%) 0px 2px 4px 0px, rgb(0 30 37 / 32%) -20px 2px 16px 0px;
+  }
+  
+  
+  .block-5 .main-block .custom-btn {
+    width: 50%;
+    padding: 2%;
+    font-size: 23px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .block-5 .main-block .custom-btn.active {
+    background-color: #fff;
+    color: #B71D34;
+    border-radius: 50px;
+  }
+  
+
+  .block-5 .main-block img {
+    height: 40px;
+  }
+
+
+  .customer-details .main-block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .customer-details .user-profile {
+    width: 38%;
+  }
+
+  .customer-details .user-profile .profile-pic{
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 10%;
+  }
+
+  .customer-details .user-profile .profile-pic img {
+    width: 100%;
+  }
+
+  .customer-details .user-profile p {
+    width: 100%;
+  }
+
+  .customer-details .welcome-msg {
+    color: #B71D34;
+    font-size: 40px;
+  } 
+  .customer-details .details {
+    width: 60%;
+  }
+
+  .customer-details .details ul {
+    margin-top: 20px;
+  }
+
+  .customer-details .details li {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px;
+    width: 100%;
+    border-radius: 55px;
+    margin-bottom: 3%;
+  }
+
+  .customer-details .details .item-left,
+  .customer-details .details .item-right {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 10px;
+    width: 40%;
+  }
+
+  .customer-details .details li label {
+    font-size: 18px;
+  }
+
+  .customer-details .details li span {
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-family: "Toyota Display Regular";
+  }
+
+
 }
     
     

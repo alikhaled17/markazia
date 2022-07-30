@@ -254,8 +254,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #303C59;
+  background-color: #242323;
   border-radius: 50px;
+  text-decoration: none;
 }
 
 .block-4 .custom-btn.active {
@@ -273,29 +274,113 @@ body {
 }
 
 
-/* ******************************************************************** */
-/* ******************************************************************** */
-/* ******************************************************************** */
-/* ******************************************************************** */
-/* ******************************************************************** */
-/* ******************************************************************** */
-/* ******************************************************************** */
-/* ******************************************************************** */
-/* ******************************************************************** */
-/* ******************************************************************** */
-/* ************************ CONTRACT START ****************************** */
-/* ******************************************************************** */
-/* ******************************************************************** */
-/* ******************************************************************** */
-/* ******************************************************************** */
-/* ******************************************************************** */
-/* ******************************************************************** */
-/* ******************************************************************** */
-/* ******************************************************************** */
-/* ******************************************************************** */
-/* ******************************************************************** */
-/* ******************************************************************** */
-/* ******************************************************************** */
-/* ******************************************************************** */
-/* ******************************************************************** */
-/* ******************************************************************** */
+
+/* BLOCK 5 */
+/* BLOCK 5 */
+/* BLOCK 5 */
+/* BLOCK 5 */
+/* BLOCK 5 */
+
+.block-5 .main-block {
+  margin: 120px 0 50px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 50px;
+  width: 100%;
+  background-color: #B71D34;
+  overflow: hidden;
+  color: #fff;
+  box-shadow: rgb(0 30 37 / 9%) 0px 2px 4px 0px, rgb(0 30 37 / 32%) -20px 2px 16px 0px;
+}
+
+
+.block-5 .main-block .custom-btn {
+  width: 50%;
+  padding: 2%;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-5 .main-block img {
+  height: 60px;
+}
+
+.block-5 .main-block .custom-btn.active {
+  background-color: #fff;
+  color: #B71D34;
+  border-radius: 50px;
+}
+
+.customer-details .main-block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 10%;
+}
+
+.customer-details .user-profile {
+  width: 35%;
+}
+
+.customer-details .user-profile .profile-pic{
+  width: 300px;
+  height: 300px;
+  border-radius: 20;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 15%;
+}
+
+.customer-details .user-profile .profile-pic img {
+  width: 100%;
+}
+
+.customer-details .user-profile p {
+  width: 90%;
+}
+
+.customer-details .welcome-msg {
+  color: #B71D34;
+  font-size: 60px;
+} 
+.customer-details .details {
+  width: 60%;
+}
+
+.customer-details .details ul {
+  margin-top: 30px;
+}
+
+.customer-details .details li {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+  width: 100%;
+  border-radius: 55px;
+  margin-bottom: 3%;
+}
+
+.customer-details .details .item-left,
+.customer-details .details .item-right {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+  width: 30%;
+}
+
+.customer-details .details li label {
+  font-size: 20px;
+}
+
+
+.customer-details .details li span {
+  letter-spacing: 3px;
+  font-family: "Toyota Display Regular";
+}
+
