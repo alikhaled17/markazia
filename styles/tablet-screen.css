@@ -1,4 +1,4 @@
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 950px) {
     
     
     .container {
@@ -51,6 +51,13 @@
         align-items: flex-end;
       }
       
+      .block-1 .block-action a {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: flex-end;
+      }
+
       .block-1 .block-action img {
         width: 35%;
         opacity: .8;
@@ -186,7 +193,71 @@
         .block-3 .result {
           color: #303C59;
         }
-    }
+
+
+
+
+
+        
+.block-3 .block-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%
+  }
+  
+  .block-3 .block-footer p {
+    width: 80%;
+    font-size: 16px;
+  }
+  
+  .block-3 .block-footer a {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .block-3 .block-footer img {
+    width: 40%;
+    filter: rgb(0 30 37 / 9%) 0px 2px 4px 0px, rgb(0 30 37 / 32%) -20px 2px 16px 0px;
+  }
+  
+  
+  
+  
+  .block-4 .main-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15%;
+    width: 100%;
+  }
+  
+  .block-4 .custom-btn {
+    width: 40%;
+    padding: 10% 3% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #303C59;
+    border-radius: 50px;
+  }
+  
+  .block-4 .custom-btn.active {
+    background-color: #B71D34;
+  }
+  
+  .block-4 .custom-btn img {
+    width: 40%;
+  }
+  
+  .block-4 .custom-btn span {
+    font-size: 3.5vh;
+    margin-left: 2%;
+  }
+  
+}
     
     
     
