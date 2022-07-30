@@ -24,7 +24,7 @@
     background-repeat: no-repeat;
     background-size: 140% 110%;
     background-position: center;
-    padding: 10% 8%;
+    padding: 10% 6%;
     display: flex;
     justify-content: space-between;
     box-shadow: rgb(0 30 37 / 9%) 0px 2px 4px 0px, rgb(0 30 37 / 32%) -20px 2px 16px 0px;
@@ -40,7 +40,7 @@
   }
   
   .block-1 .block-content p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: normal;
     width: 80%;
   }
@@ -51,8 +51,15 @@
     align-items: flex-end;
   }
   
+  .block-1 .block-action a {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: flex-end;
+  }
+
   .block-1 .block-action img {
-    width: 35%;
+    width: 30%;
     opacity: .8;
     transition: all .5s ease-in-out;
     cursor: pointer;
