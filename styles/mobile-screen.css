@@ -311,7 +311,7 @@
   }
 
   .customer-details .user-profile {
-    width: 35%;
+    width: 42%;
   }
 
   .customer-details .user-profile .profile-pic{
@@ -327,8 +327,9 @@
   }
 
   .customer-details .user-profile p {
-    width: 95%;
-    font-size: 8px;
+    width: 100%;
+    margin-left: -1%;
+    font-size: 11px;
   }
 
   .customer-details .welcome-msg {
@@ -336,7 +337,7 @@
     font-size: 20px;
   } 
   .customer-details .details {
-    width: 63%;
+    width: 58%;
   }
 
   .customer-details .details ul {
@@ -348,7 +349,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3px 6px;
+    padding: 2px 4px;
     width: 100%;
     border-radius: 55px;
     margin-bottom: 3%;
@@ -358,7 +359,7 @@
   .customer-details .details .item-right {
     display: flex;
     flex-direction: column;
-    padding: 2px 4px;
+    padding: 2px 2px;
     width: 50%;
   }
 
