@@ -211,7 +211,7 @@
   
   .block-3 .block-footer p {
     width: 80%;
-    font-size: 10px;
+    font-size: 12px;
     padding: 5px;
   }
   
@@ -311,7 +311,7 @@
   }
 
   .customer-details .user-profile {
-    width: 43%;
+    width: 35%;
   }
 
   .customer-details .user-profile .profile-pic{
@@ -319,7 +319,7 @@
     height: 110px;
     overflow: hidden;
     border-radius: 50%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   }
 
   .customer-details .user-profile .profile-pic img {
@@ -333,10 +333,10 @@
 
   .customer-details .welcome-msg {
     color: #B71D34;
-    font-size: 25px;
+    font-size: 20px;
   } 
   .customer-details .details {
-    width: 55%;
+    width: 63%;
   }
 
   .customer-details .details ul {
@@ -363,11 +363,11 @@
   }
 
   .customer-details .details li label {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .customer-details .details li span {
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 1.5px;
     font-family: "Toyota Display Regular";
   }
