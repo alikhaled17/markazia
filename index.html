@@ -30,7 +30,6 @@
     <title>TOYOUTA-MARKAZIA</title>
 
     <link rel="stylesheet" href="./styles/fonts.css" />
-    <link rel="stylesheet" href="./styles/general.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/tablet-screen.css" />
     <link rel="stylesheet" href="./styles/mobile-screen.css" />
@@ -163,6 +162,7 @@
       </div>
     </div>
 
+
     <div class="block-4" id="block4">
       <div class="container">
         <div class="main-block">
@@ -170,7 +170,7 @@
             <img src="./assets/images/customer.png" alt="customer">
             <span>Customer Details</span>
           </a>
-          <a href="#" class="custom-btn">
+          <a href="#vehicle-status" class="custom-btn">
             <img src="./assets/images/vehicle.png" alt="customer">
             <span>Vehicle Status</span>
           </a>
@@ -270,12 +270,138 @@
             </div>
 
           </div>
+          <a href="#block4" class="scroll-to-top">
+            <img src="./assets/images/arrow-up.png" alt="arrow-up">
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="vehicle-status">
+      <div class="block-5" id="block5">
+        <div class="container">
+          <div class="main-block">
+            <div class="custom-btn active">Vehicle Health Indicator</div>
+            <div class="custom-btn">
+              <img src="./assets/images/svehicle-sm.png" alt="user">
+              Customer details
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="vehicle-status">
+        <div class="container">
+          <div class="main-block">
+           
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla excepturi dicta iusto. Dolorem minus beatae, maiores expedita possimus, iure numquam nulla officiis necessitatibus ad incidunt praesentium distinctio nam exercitationem quae.
+              dolor sit amet consectetur adipisicing elit. Nulla excepturi dicta iusto. Dolorem minus beatae, maiores expedita possimus, iure numquam nulla officiis necessitatibus ad incidunt praesentium distinctio nam exercitationem quae.
+            </p>
+            
+            <div class="vehicle-status-list" >
+              <a href="#under-vehicle">
+                <img src="./assets/images/vehicle-status-icons/under-vehicle.png" alt="under-vehicle">
+                <span>Under the Vehicle</span>
+              </a>
+              <a href="#under-vehicle">
+                <img src="./assets/images/vehicle-status-icons/inside-vehicle.png" alt="inside-vehicle">
+                <span>Inside Vehicle</span>
+              </a>
+              <a href="#under-vehicle">
+                <img src="./assets/images/vehicle-status-icons/brakets.png" alt="brakets">
+                <span>Brakes, Tires & Bodies</span>
+              </a>
+              <a href="#under-vehicle">
+                <img src="./assets/images/vehicle-status-icons/car-vehical.png" alt="outside-vehical">
+                <span>Outside Vehicle</span>
+              </a>
+              <a href="#under-vehicle">
+                <img src="./assets/images/vehicle-status-icons/engine-room.png" alt="engine-room">
+                <span>Engine Room</span>
+              </a>
+            </div>
+            <a href="#block4" class="scroll-to-top" style="margin-top: -50px;">
+              <img src="./assets/images/arrow-up.png" alt="arrow-up">
+            </a>
+          </div>
+          
         </div>
       </div>
 
     </div>
 
 
-    <script src="./js/script.js"></script>
+    <div class="vehicle-single-details" id="under-vehicle">
+      <div class="container">
+
+        <div class="big-label">
+          <div class="label">
+            <img src="./assets/images/vehicle-status-icons/under-vehicle.png" alt="under-vehicle">
+            <span>Under the Vehicle</span>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, ullam repellat harum assumenda iusto delectus obcaecati minus voluptatem doloremque consequuntur cupiditate quas laborum dicta explicabo blanditiis libero? Asperiores, nam ex?
+            doloremque consequuntur cupiditate quas laborum dicta explicabo blanditiis libero? Asperiores, nam ex?
+          </p>
+        </div>
+
+        <table>
+          <tr>
+            <th>Item</th>
+            <th>Rate</th>
+            <th>Reason</th>
+          </tr>
+          <tr>
+            <td>GUIDANCE SYSTEM</td>
+            <td> <small class="dot green"></small> </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>GUIDANCE SYSTEM</td>
+            <td> <small class="dot green"></small> </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>GUIDANCE SYSTEM</td>
+            <td> <small class="dot red"></small> </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>GUIDANCE SYSTEM</td>
+            <td> <small class="dot orange"></small> </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>GUIDANCE SYSTEM</td>
+            <td> <small class="dot green"></small> </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>GUIDANCE SYSTEM</td>
+            <td> <small class="dot green"></small> </td>
+            <td></td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+
+
+
+    
+
+    <script>
+      document.querySelectorAll(".vehicle-status-list a").forEach(v => {
+        v.addEventListener("click", () => {
+          document.querySelector(".vehicle-single-details").classList.add("active")
+          let src = v.querySelector("img").getAttribute("src")
+          let title = v.querySelector("span").textContent
+          document.querySelector(".vehicle-single-details .label img").setAttribute("src", src)
+          document.querySelector(".vehicle-single-details .label span").textContent = title 
+        })
+      })
+    </script>
   </body>
 </html>

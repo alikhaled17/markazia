@@ -34,8 +34,7 @@ body {
 
 .block-1 .main-block {
   border-radius: 85px; 
-  background: linear-gradient(to right, #231F2095, #780F2A95, #CB003395, #CB003395), url("../assets/images/01.png");
-
+  background: linear-gradient(to right, #080708d2, #780F2A98, #ff0442cc, #e7053eee), url("../assets/images/01.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10% 8%;
@@ -140,13 +139,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  width: 55%;
+  align-items: flex-end;
+  width: 40%;
 
 }
 
 .block-3 .gear-note img {
-  width: 80%;
+  width: 100%;
+  margin-top: 12%;
 } 
 
 .block-3 .gear-note .note {
@@ -155,17 +155,18 @@ body {
   padding: 10px 20px;
   font-size: 1.1vw ;
   border-radius: 20px;
-  margin-left: 10%;
+  margin-right: 45%;
   margin-top: 20px;
 }
 
 
 .block-3 .block-content {
   background-image: url("../assets/images/02.png");
-  background-size: contain;
+  background-size: 110%;
   background-repeat: no-repeat;
+  background-position: center;
   height: 100%;
-  width: 45%;
+  width: 60%;
 }
 
 .block-3 .info-list-item {
@@ -196,9 +197,9 @@ body {
 .block-3 .info-list-item .dot {
   background-color: #000;
   border-radius: 50%;
-  width: 15px;
-  height: 14px;
-  margin-left: 30%;
+  width: 20px;
+  height: 20px;
+  margin-left: 20%;
 }
 
 
@@ -282,7 +283,7 @@ body {
 /* BLOCK 5 */
 
 .block-5 .main-block {
-  margin: 120px 0 50px;
+  margin: 250px 0 50px;
   display: flex;
   justify-content: space-between;
   border-radius: 50px;
@@ -319,7 +320,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-bottom: 10%;
+  margin-bottom: 0%;
 }
 
 .customer-details .user-profile {
@@ -382,5 +383,175 @@ body {
 .customer-details .details li span {
   letter-spacing: 3px;
   font-family: "Toyota Display Regular";
+}
+
+
+.vehicle-status p {
+  width: 50%;
+}
+
+.vehicle-status-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.vehicle-status-list a {
+  cursor: pointer;
+  text-decoration: none;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: #242323;
+  height: 240px;
+  margin: 10px .5%;
+  border-radius: 40px;
+  color: #fff;
+  opacity: .8;
+}
+
+.vehicle-status-list a:hover {
+  opacity: 1;
+}
+
+.vehicle-status-list a:nth-child(1) { background-color: #B5B5B5; }
+.vehicle-status-list a:nth-child(2) { background-color: #171717; }
+.vehicle-status-list a:nth-child(3) { background-color: #808080; }
+.vehicle-status-list a:nth-child(4) { background-color: #000; }
+.vehicle-status-list a:nth-child(5) { background-color: #3B3B3B; }
+
+.vehicle-status-list a img {
+  width: 40%;
+  margin: 2% 4%;
+}
+
+.vehicle-status-list a span {
+  font-size: 35px;
+}
+
+
+
+
+.vehicle-single-details {
+  display: none;
+  margin-top: 15%;
+}
+
+.vehicle-single-details.active {
+  display: block;
+} 
+
+.vehicle-single-details .big-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vehicle-single-details .big-label p {
+  width: 47%;
+}
+
+.vehicle-single-details .big-label .label {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: #B5B5B5;
+  height: 250px;
+  margin: 20px .5%;
+  border-radius: 40px;
+  color: #fff;
+}
+
+
+.vehicle-single-details .big-label .label img {
+  width: 40%;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
+.vehicle-single-details .big-label .label span {
+  font-size: 35px;
+}
+
+.vehicle-single-details table {
+  width: 100%;
+  text-align: left;
+  margin: 5% 2%;  
+}
+
+.vehicle-single-details th {
+  padding: 20px;
+  width: 22%;
+}
+
+.vehicle-single-details  tr:not(:nth-child(1))  {
+  background-color: #fff;
+}
+
+.vehicle-single-details  tr {
+  border-radius: 50px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.vehicle-single-details td {
+  padding: 15px;
+  font-family: "Toyota Display Regular";
+
+}
+.vehicle-single-details tr td:nth-child(1) {
+  border-radius: 50px 0 0 50px;
+  width: 30%;
+}
+
+.vehicle-single-details tr th:nth-child(1) {
+  border-radius: 50px 0 0 50px;
+  width: 30%;
+}
+
+
+.vehicle-single-details tr td:nth-child(3) {
+  border-radius: 0 50px 50px 0 ;
+  border: 0;
+}
+
+
+.vehicle-single-details  .dot {
+  background-color: #000;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+
+.vehicle-single-details  .dot.green {
+  background-color: green;
+}
+.vehicle-single-details  .dot.red {
+  background-color: #B71D34;
+}
+
+.vehicle-single-details .dot.orange {
+  background-color: orange;
+}
+
+
+
+.scroll-to-top {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.scroll-to-top img {
+  width: 10%;
+  cursor: pointer;
 }
 
