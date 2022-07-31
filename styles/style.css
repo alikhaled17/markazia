@@ -33,8 +33,21 @@ body {
 
 
 .block-1 .main-block {
-  border-radius: 85px; 
-  background: linear-gradient(to right, #080708d2, #780F2A98, #ff0442cc, #e7053eee), url("../assets/images/01.png");
+  border-radius: 70px; 
+  background: 
+  linear-gradient(to right, 
+  #030202b0, 
+  #47000086, 
+  #a304046c, 
+  #b90909ab),
+  linear-gradient(to right, 
+  #030202b0, 
+  #47000086, 
+  #a304046c, 
+  #b90909ab), 
+  url("../assets/images/01.png");
+
+
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10% 8%;
@@ -76,7 +89,7 @@ body {
   opacity: .8;
   transition: all .5s ease-in-out;
   cursor: pointer;
-  margin-right: 10%;
+  margin: 0 -5% -15% 0;
 } 
 
 
@@ -92,7 +105,7 @@ body {
 /* BLOCK 2 */
 
 .block-2 .main-block {
-  margin: 120px 0 50px;
+  margin: 120px 0 15px;
   display: flex;
   justify-content: space-between;
   border-radius: 50px;
@@ -126,11 +139,10 @@ body {
 /* BLOCK 3 */
 /* BLOCK 3 */
 
-
 .block-3 .main-block  {
   display: flex;
   justify-content: space-between;
-  padding: 50px;
+  padding: 15px 50px;
   border-radius: 50px;
   box-shadow: rgb(0 30 37 / 9%) 0px 2px 4px 0px, rgb(0 30 37 / 32%) -20px 2px 16px 0px;
 }
@@ -173,7 +185,7 @@ body {
   display: flex;
   align-items: center;
   width: 100%;
-  margin: 20px 0;
+  margin: 10px 0 ;
   height: fit-content;
 }
 
@@ -247,6 +259,7 @@ body {
   align-items: center;
   margin-top: 15%;
   width: 100%;
+  padding-top: 40px;
 }
 
 .block-4 .custom-btn {
@@ -283,7 +296,7 @@ body {
 /* BLOCK 5 */
 
 .block-5 .main-block {
-  margin: 250px 0 50px;
+  margin: 300px 0 15px;
   display: flex;
   justify-content: space-between;
   border-radius: 50px;
@@ -297,7 +310,7 @@ body {
 
 .block-5 .main-block .custom-btn {
   width: 50%;
-  padding: 2%;
+  padding: 1.5%;
   font-size: 30px;
   text-align: center;
   cursor: pointer;
@@ -307,13 +320,23 @@ body {
 }
 
 .block-5 .main-block img {
-  height: 60px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.block-5 .main-block .list-arrow {
+  height: 25px;
+  margin-left: 10px;
 }
 
 .block-5 .main-block .custom-btn.active {
   background-color: #fff;
   color: #B71D34;
   border-radius: 50px;
+}
+
+.customer-details .scroll-to-top {
+  margin-top: -60px;
 }
 
 .customer-details .main-block {
@@ -328,8 +351,8 @@ body {
 }
 
 .customer-details .user-profile .profile-pic{
-  width: 300px;
-  height: 300px;
+  width: 280px;
+  height: 280px;
   border-radius: 20;
   overflow: hidden;
   border-radius: 50%;
@@ -346,14 +369,14 @@ body {
 
 .customer-details .welcome-msg {
   color: #B71D34;
-  font-size: 60px;
+  font-size: 45px;
 } 
 .customer-details .details {
   width: 60%;
 }
 
 .customer-details .details ul {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .customer-details .details li {
@@ -361,10 +384,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 25px;
-  width: 100%;
+  padding: 5px 25px;
+  width: 110%;
   border-radius: 55px;
-  margin-bottom: 3%;
+  margin-bottom: 1.5%;
 }
 
 .customer-details .details .item-left,
@@ -382,12 +405,23 @@ body {
 
 .customer-details .details li span {
   letter-spacing: 3px;
-  font-family: "Toyota Display Regular";
+  font-family: "Toyota Display Regular" ;
 }
 
+.vehicle-status {
+  margin-bottom: 50px;
+}
+
+.vehicle-status .scroll-to-top {
+  margin: -120px 20px 0 0;
+}
 
 .vehicle-status p {
   width: 50%;
+}
+
+.vehicle-status .block-5 .custom-btn {
+  font-family: "Toyota Display regular" !important;
 }
 
 .vehicle-status-list {
@@ -395,19 +429,19 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 .vehicle-status-list a {
   cursor: pointer;
   text-decoration: none;
-  width: 45%;
+  width: 40%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 10px 10px;
+  padding: 5px 25px;
   background-color: #242323;
-  height: 240px;
+  height: 150px;
   margin: 10px .5%;
   border-radius: 40px;
   color: #fff;
@@ -425,15 +459,13 @@ body {
 .vehicle-status-list a:nth-child(5) { background-color: #3B3B3B; }
 
 .vehicle-status-list a img {
-  width: 40%;
+  width: 30%;
   margin: 2% 4%;
 }
 
 .vehicle-status-list a span {
-  font-size: 35px;
+  font-size: 30px;
 }
-
-
 
 
 .vehicle-single-details {
@@ -456,37 +488,37 @@ body {
 }
 
 .vehicle-single-details .big-label .label {
-  width: 45%;
+  width: 35%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px 10px;
   background-color: #B5B5B5;
-  height: 250px;
-  margin: 20px .5%;
+  height: 150px;
+  margin: 0 .5%;
   border-radius: 40px;
   color: #fff;
+  padding: 5px 50px;
 }
 
 
 .vehicle-single-details .big-label .label img {
-  width: 40%;
+  width: 30%;
   margin-right: 4%;
   margin-left: 4%;
 }
 
 .vehicle-single-details .big-label .label span {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .vehicle-single-details table {
   width: 100%;
   text-align: left;
-  margin: 5% 2%;  
+  margin: 1% 2%;  
 }
 
 .vehicle-single-details th {
-  padding: 20px;
+  padding: 10px;
   width: 22%;
 }
 
@@ -497,7 +529,7 @@ body {
 .vehicle-single-details  tr {
   border-radius: 50px;
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .vehicle-single-details td {

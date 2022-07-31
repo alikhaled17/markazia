@@ -20,7 +20,6 @@
       
       .block-1 .main-block {
         border-radius: 55px; 
-        background: linear-gradient(to right, #080708d2, #780F2A98, #ff0442cc, #e7053eee), url("../assets/images/01.png");
         background-repeat: no-repeat;
         background-size: cover;
         padding: 10% 8%;
