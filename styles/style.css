@@ -575,7 +575,7 @@ body {
 
 .vehicle-single-details th {
   padding: 10px;
-  width: 22%;
+  width: 18%;
 }
 
 .vehicle-single-details  tr:not(:nth-child(1))  {
