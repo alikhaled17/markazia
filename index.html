@@ -284,13 +284,18 @@
     <div id="vehicle-status">
       <div class="block-5" id="block5">
         <div class="container">
+
           <div class="main-block">
             <div class="custom-btn active">Vehicle Health Indicator</div>
-            <div class="custom-btn">
+            <div class="custom-btn display-icons-info">
               <img src="./assets/images/svehicle-sm.png" alt="user">
               Vehicle Status 
               <img src="./assets/images/list-arrow.png" class="list-arrow" alt="list-arrow">
             </div>
+          </div>
+
+          <div class="information-icons">
+            <img src="./assets/images/information-icons.png" alt="information-icons">
           </div>
         </div>
       </div>
@@ -347,6 +352,10 @@
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, ullam repellat harum assumenda iusto delectus obcaecati minus voluptatem doloremque consequuntur cupiditate quas laborum dicta explicabo blanditiis libero? Asperiores, nam ex?
           </p>
+          
+        </div>
+        <div class="information-icons">
+          <img src="./assets/images/information-icons.png" alt="information-icons">
         </div>
 
         <table>
@@ -406,6 +415,18 @@
           document.querySelector(".vehicle-single-details .label img").setAttribute("src", src)
           document.querySelector(".vehicle-single-details .label span").textContent = title 
         })
+      })
+
+
+      document.querySelector(".display-icons-info").addEventListener('click', () => {
+        let infoIcons = document.querySelector(".block-5 .information-icons")
+        if(infoIcons.classList.contains("active")) {
+          document.querySelector(".display-icons-info").classList.remove('list-opened')
+          infoIcons.classList.remove("active")
+        } else {
+          document.querySelector(".display-icons-info").classList.add('list-opened')
+          infoIcons.classList.add("active")
+        }
       })
     </script>
   </body>
