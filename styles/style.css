@@ -454,7 +454,6 @@ body {
   position: absolute;
   right: 10%;
   bottom: 15%;
-  /* margin: -120px 20px 0 0; */
 }
 
 .vehicle-status .scroll-to-top img {
@@ -644,6 +643,8 @@ body {
 
 
 .scroll-to-top {
+  width: 20%;
+  height: fit-content;
   display: flex;
   justify-content: flex-end;
 }
