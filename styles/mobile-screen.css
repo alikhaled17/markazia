@@ -240,7 +240,8 @@
     }
 
     .block-4 .scroll-to-top img {
-      width: 15%;
+      width: 50%;
+
     }
     
     .block-4 .main-block{
@@ -512,7 +513,7 @@
     bottom: 5%;
   }
 
-  .vehicle-status .scroll-to-top {
+  .vehicle-status .scroll-to-top img {
     width: 60%;
   }
   
@@ -633,19 +634,21 @@
 
   .customer-details .scroll-to-top {
     position: relative;
+    margin-left: 80%;
   }
   
   .customer-details .scroll-to-top img {
-    width: 13%;
+    width: 60%;
   }
 
 
   .vehicle-single-details .scroll-to-top {
     position: relative;
+    margin-left: 80%;
   }
   
   .vehicle-single-details .scroll-to-top img {
-    width: 13%;
+    width: 70%;
   }
 
   #vehicle-status {
