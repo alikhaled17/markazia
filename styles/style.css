@@ -584,7 +584,7 @@ body {
 
 .vehicle-single-details  tr:not(:nth-child(1))  {
   background-color: #fff;
-  padding-top: 25px ;
+  padding: 44px 10px 5px 10px;
 }
 
 .vehicle-single-details  tr {
@@ -604,10 +604,9 @@ body {
   left: 0;
   color: #605e5e;
   border-bottom: .5px dotted rgba(0, 0, 0, 0.2);
-  /* background-color: #e0dede; */
 }
 .vehicle-single-details .table-tr-title span {
-  margin-left: 2%;
+  margin-left: 4%;
 }
 
 
@@ -632,12 +631,14 @@ body {
 
 .vehicle-single-details table .table-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+  padding: 10px;
 }
 
 .vehicle-single-details table .table-header th {
   width: 30%;
+  padding: 14px;
 }
 
 .vehicle-single-details table .table-header th:nth-child(1) {
@@ -648,6 +649,11 @@ body {
   width: 10%;
 }
 
+.vehicle-single-details table .table-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
 
 .vehicle-single-details table .table-row td {
   width: 30%;
