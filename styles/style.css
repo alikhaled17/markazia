@@ -423,7 +423,7 @@ body {
 .customer-details .details li {
   background-color: #fff;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   padding: 5px 25px;
   width: 110%;
@@ -436,7 +436,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 5px 10px;
-  width: 30%;
+  width: 45%;
 }
 
 .customer-details .details li label {
@@ -576,20 +576,40 @@ body {
   margin: 1% 2%;  
 }
 
+
+
 .vehicle-single-details th {
   padding: 10px;
-  width: 18%;
 }
 
 .vehicle-single-details  tr:not(:nth-child(1))  {
   background-color: #fff;
+  padding-top: 25px ;
 }
 
 .vehicle-single-details  tr {
+  overflow: hidden;
   border-radius: 50px;
   display: block;
   margin-bottom: 10px;
+  position: relative;
 }
+
+.vehicle-single-details .table-tr-title {
+  position: absolute;
+  top: 0;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  width: 100%;
+  left: 0;
+  color: #605e5e;
+  border-bottom: .5px dotted rgba(0, 0, 0, 0.2);
+  /* background-color: #e0dede; */
+}
+.vehicle-single-details .table-tr-title span {
+  margin-left: 2%;
+}
+
 
 .vehicle-single-details td {
   padding: 15px;
@@ -598,12 +618,10 @@ body {
 }
 .vehicle-single-details tr td:nth-child(1) {
   border-radius: 50px 0 0 50px;
-  width: 30%;
 }
 
 .vehicle-single-details tr th:nth-child(1) {
   border-radius: 50px 0 0 50px;
-  width: 30%;
 }
 
 
@@ -611,6 +629,42 @@ body {
   border-radius: 0 50px 50px 0 ;
   border: 0;
 }
+
+.vehicle-single-details table .table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vehicle-single-details table .table-header th {
+  width: 30%;
+}
+
+.vehicle-single-details table .table-header th:nth-child(1) {
+  width: 6%;
+}
+
+.vehicle-single-details table .table-header th:nth-child(4) {
+  width: 10%;
+}
+
+
+.vehicle-single-details table .table-row td {
+  width: 30%;
+}
+
+.vehicle-single-details table .table-row td:nth-child(1) {
+  width: 6%;
+}
+
+.vehicle-single-details table .table-row td:nth-child(4) {
+  width: 10%;
+}
+
+
+
+
+
 
 
 .vehicle-single-details  .dot {
