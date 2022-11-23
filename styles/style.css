@@ -1,9 +1,22 @@
-    
-*{
-  font-family:"Toyota Display Bold";
-  margin:0;
-  padding:0;
-  list-style:none;
+* {
+  font-family: "Toyota Display Bold";
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+:root .input-group-text {
+  height: 100%;
+  border-radius: 6px 0 0 6px;
+}
+
+:root .iti.iti--allow-dropdown {
+  width: 100%;
+  /* margin-top: 10px; */
+}
+
+.input-group-prepend {
+  min-width: 40px;
 }
 
 html {
@@ -11,710 +24,68 @@ html {
 }
 
 body {
-  background-color: #F1F1F1;
-
+  background-color: #f1f1f1;
 }
 
-.container {
-  width: 70%;
-  margin: 2% auto;
-}
-
-.navbar {
-  padding: 20px;
+.form {
+  color: #494848;
+  /* width: 40vw; */
   display: flex;
-  justify-content: space-between;
-}
-
-.navbar img {
-  width: 10%;
-}
-
-
-
-.block-1 .main-block {
-  border-radius: 70px; 
-  background: 
-  linear-gradient(150deg, 
-  #030202cb, 
-  #2e0101b2, 
-  #2c000086, 
-  #47000086, 
-  #a304046c, 
-  #b90909ab),
-  linear-gradient(to right, 
-  #030202cb, 
-  #2e0101b2, 
-  #2c000086, 
-  #47000086, 
-  #a304046c, 
-  #b90909ab), 
-  url("../assets/images/01.png");
-
-
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 10% 8%;
-  display: flex;
-  justify-content: space-between;
-  box-shadow: rgb(0 30 37 / 9%) 0px 2px 4px 0px, rgb(0 30 37 / 32%) -20px 2px 16px 0px;
-}
-
-.block-1 .block-content {
-  color: #fff;
-}
-
-.block-1 .block-content h1 {
-  font-size: 65px; 
-  margin: 10px 0 !important;
-}
-
-.block-1 .block-content p {
-  font-size: 18px;
-  font-family: "Toyota Display Regular";
-  width: 50%;
-}
-
-.block-1 .block-action {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-
-.block-1 .block-action a {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.block-1 .block-action img {
-  width: 30%;
-  opacity: .8;
-  transition: all .5s ease-in-out;
-  cursor: pointer;
-  margin: 0 -5% -15% 0;
-} 
-
-
-.block-1 .block-action img:hover {
-  opacity: 1;
-}
-
-
-/* BLOCK 2 */
-/* BLOCK 2 */
-/* BLOCK 2 */
-/* BLOCK 2 */
-/* BLOCK 2 */
-
-.block-2 .main-block {
-  margin: 120px 0 15px;
-  display: flex;
-  justify-content: space-between;
-  border-radius: 50px;
-  width: 100%;
-  background-color: #B71D34;
-  overflow: hidden;
-  color: #fff;
-  box-shadow: rgb(0 30 37 / 9%) 0px 2px 4px 0px, rgb(0 30 37 / 32%) -20px 2px 16px 0px;
-}
-
-
-.block-2 .main-block .custom-btn {
-  width: 50%;
-  padding: 2%;
-  font-size: 30px;
-  text-align: center;
-  cursor: pointer;
-}
-
-.block-2 .main-block .custom-btn.active {
-  background-color: #fff;
-  color: #B71D34;
-  border-radius: 50px;
-}
-
-
-
-/* BLOCK 3 */
-/* BLOCK 3 */
-/* BLOCK 3 */
-/* BLOCK 3 */
-/* BLOCK 3 */
-
-.block-3 .main-block  {
-  display: flex;
-  justify-content: space-between;
-  padding: 15px 50px;
-  border-radius: 50px;
-  box-shadow: rgb(0 30 37 / 9%) 0px 2px 4px 0px, rgb(0 30 37 / 32%) -20px 2px 16px 0px;
-}
-
-.block-3 .gear-note {
-  display: flex;
+  justify-content: center;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-  width: 40%;
-
-}
-
-.block-3 .gear-note img {
-  width: 100%;
-  margin-top: 12%;
-} 
-
-.block-3 .gear-note .note {
-  background-color: #B71D34;
-  color: #fff;
-  padding: 10px 20px;
-  font-size: 1.1vw ;
-  border-radius: 20px;
-  margin-right: 45%;
-  margin-top: 20px;
-}
-
-
-.block-3 .block-content {
-  background-image: url("../assets/images/02.png");
-  background-size: 110%;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100%;
-  width: 60%;
-}
-
-.block-3 .info-list-item {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  margin: 10px 0 ;
-  height: fit-content;
-}
-
-.block-3 .info-list-item .icon {
-  margin-right: 20px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 20%;
-}
-
-.block-3 .info-list-item .icon img {
-  height: 100%;
-}
-
-.block-3 .info-list-item span {
-  width: 50%;
-}
-
-.block-3 .info-list-item .dot {
-  background-color: #000;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  margin-left: 20%;
-}
-
-
-.block-3 .info-list-item .dot.green {
-  background-color: green;
-}
-.block-3 .info-list-item .dot.red {
-  background-color: #B71D34;
-}
-
-.block-3 .result {
-  color: #303C59;
-}
-
-
-.block-3 .block-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 3%
-}
-
-.block-3 .block-footer p {
-  width: 80%;
-}
-
-.block-3 .block-footer a {
-  width: 20%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
- 
-.block-3 .block-footer img {
-  width: 40%;
-  filter: rgb(0 30 37 / 9%) 0px 2px 4px 0px, rgb(0 30 37 / 32%) -20px 2px 16px 0px;
-}
-
-
-
-
-.block-4 .main-block{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 15%;
-  width: 100%;
-  padding-top: 40px;
-}
-
-.block-4 .scroll-to-top {
-  margin-left: 75%;
-}
-
-.block-4 .scroll-to-top img {
-  width: 50%;
-}
-
-.block-4 .custom-btn {
-  width: 40%;
-  padding: 10% 3% ;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #242323;
-  border-radius: 50px;
-  text-decoration: none;
-}
-
-.block-4 .custom-btn.active {
-  background-color: #B71D34;
-}
-
-.block-4 .custom-btn img {
-  width: 40%;
-}
-
-.block-4 .custom-btn span {
-  color: #fff;
-  font-size: 5.5vh;
-  margin-left: 3%;
-}
-
-
-
-/* BLOCK 5 */
-/* BLOCK 5 */
-/* BLOCK 5 */
-/* BLOCK 5 */
-/* BLOCK 5 */
-
-.block-5 .main-block {
-  margin: 300px 0 15px;
-  display: flex;
-  justify-content: space-between;
-  border-radius: 50px;
-  width: 100%;
-  background-color: #B71D34;
-  overflow: hidden;
-  color: #fff;
-  box-shadow: rgb(0 30 37 / 9%) 0px 2px 4px 0px, rgb(0 30 37 / 32%) -20px 2px 16px 0px;
-}
-
-.display-icons-info.list-opened .list-arrow {
-  transform: rotate(180deg);
-}
-
-.block-5 .information-icons {
-  display: none;
-  position: relative;
-  justify-content: flex-end;
-}
-
-.block-5 .information-icons img {
-  width: 250px;
-  position: absolute;
-  right: 10%;
-}
-
-.block-5 .information-icons.active {
-  display: flex;
-}
-
-.block-5 .main-block .custom-btn {
-  width: 50%;
-  padding: 1.5%;
-  font-size: 30px;
-  text-align: center;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.block-5 .main-block img {
-  height: 40px;
-  margin-right: 10px;
-}
-
-.block-5 .main-block .list-arrow {
-  height: 25px;
-  margin-left: 10px;
-}
-
-.block-5 .main-block .custom-btn.active {
+  margin: 30px auto;
+  padding: 70px 60px;
   background-color: #fff;
-  color: #B71D34;
-  border-radius: 50px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.customer-details {
-  position: relative;;
-}
-
-.customer-details .scroll-to-top {
-  position: absolute;
-  right: 2%;
-  bottom: 0%;
-}
-
-.customer-details .scroll-to-top img {
-  width: 40%;
-}
-
-.customer-details .main-block {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-bottom: 0%;
-}
-
-.customer-details .user-profile {
-  width: 35%;
-}
-
-.customer-details .user-profile .profile-pic{
-  width: 280px;
-  height: 280px;
-  border-radius: 20;
-  overflow: hidden;
-  border-radius: 50%;
-  margin-bottom: 15%;
-}
-
-.customer-details .user-profile .profile-pic img {
-  width: 100%;
-}
-
-.customer-details .user-profile p {
-  width: 90%;
-}
-
-.customer-details .welcome-msg {
-  color: #B71D34;
-  font-size: 45px;
-} 
-.customer-details .details {
-  width: 60%;
-}
-
-.customer-details .details ul {
-  margin-top: 15px;
-}
-
-.customer-details .details li {
-  background-color: #fff;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 5px 25px;
-  width: 110%;
-  border-radius: 55px;
-  margin-bottom: 1.5%;
-}
-
-.customer-details .details .item-left,
-.customer-details .details .item-right {
-  display: flex;
-  flex-direction: column;
-  padding: 5px 10px;
-  width: 45%;
-}
-
-.customer-details .details li label {
-  font-size: 20px;
-}
-
-
-.customer-details .details li span {
-  letter-spacing: 3px;
-  font-family: "Toyota Display Regular" ;
-}
-
-.vehicle-status {
-  margin-bottom: 50px;
-  position: relative;
-}
-
-.vehicle-status .scroll-to-top {
-  position: absolute;
-  right: 10%;
-  bottom: 10%;
-}
-
-.vehicle-status .scroll-to-top img {
-  width: 40%;
-}
-
-.vehicle-status p {
-  width: 50%;
-}
-
-.vehicle-status .block-5 .custom-btn {
-  font-family: "Toyota Display regular" !important;
-}
-
-.vehicle-status-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+.form-controll {
   margin-top: 10px;
 }
 
-.vehicle-status-list a {
-  cursor: pointer;
-  text-decoration: none;
-  width: 40%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2px 25px;
-  background-color: #242323;
-  height: 150px;
-  margin: 10px .5%;
-  border-radius: 40px;
-  color: #fff;
-  opacity: .8;
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  /* display: none; */
+  opacity: 0;
+  flex-grow: 1;
+  -webkit-appearance: none;
 }
 
-.vehicle-status-list a:hover {
-  opacity: 1;
+.form-title {
+  color: #0d6efd;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
-.vehicle-status-list a:nth-child(1) { background-color: #B5B5B5; }
-.vehicle-status-list a:nth-child(2) { background-color: #171717; }
-.vehicle-status-list a:nth-child(3) { background-color: #808080; }
-.vehicle-status-list a:nth-child(4) { background-color: #000; }
-.vehicle-status-list a:nth-child(5) { background-color: #3B3B3B; }
-
-.vehicle-status-list a img {
-  width: 30%;
-  margin: 2% 4%;
-}
-
-.vehicle-status-list a span {
-  font-size: 30px;
-}
-
-.vehicle-single-details .information-icons {
-  display: flex ;
-  justify-content: flex-end;
-}
-
-.vehicle-single-details .information-icons img {
-  width: 200px;
-}
-
-
-
-.vehicle-single-details {
-  display: none;
-  margin-top: 15%;
-  position: relative;
-}
-
-.vehicle-single-details.active {
+.form-title::after {
+  content: "";
   display: block;
-} 
-
-.vehicle-single-details .big-label {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  width: 20%;
+  margin: 10px 0;
+  height: 1px;
+  border: 1px solid #0d6efd;
 }
 
-.vehicle-single-details .big-label p {
-  width: 47%;
-}
-
-.vehicle-single-details .big-label .label {
-  width: 35%;
+.slots {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #B5B5B5;
-  height: 150px;
-  margin: 0 .5%;
-  border-radius: 30px;
-  color: #fff;
-  padding: 2px 50px;
+  color: #494848;
+  padding: 0;
 }
 
-
-.vehicle-single-details .big-label .label img {
-  width: 30%;
-  margin-right: 4%;
-  margin-left: 4%;
-}
-
-.vehicle-single-details .big-label .label span {
-  font-size: 30px;
-}
-
-.vehicle-single-details table {
-  width: 100%;
-  text-align: left;
-  margin: 1% 2%;  
-}
-
-
-
-.vehicle-single-details th {
+.slots > div {
   padding: 10px;
+  border: 0.5px solid #4948485d;
+  font-size: 11px;
+  flex-grow: 1;
+  text-align: center;
 }
 
-.vehicle-single-details  tr:not(:nth-child(1))  {
-  background-color: #fff;
-  padding: 44px 10px 5px 10px;
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .slots > div {
+    font-size: 8px;
+  }
 }
-
-.vehicle-single-details  tr {
-  overflow: hidden;
-  border-radius: 50px;
-  display: block;
-  margin-bottom: 10px;
-  position: relative;
-}
-
-.vehicle-single-details .table-tr-title {
-  position: absolute;
-  top: 0;
-  padding-top: 8px;
-  padding-bottom: 4px;
-  width: 100%;
-  left: 0;
-  color: #605e5e;
-  border-bottom: .5px dotted rgba(0, 0, 0, 0.2);
-}
-.vehicle-single-details .table-tr-title span {
-  margin-left: 4%;
-}
-
-
-.vehicle-single-details td {
-  padding: 15px;
-  font-family: "Toyota Display Regular";
-
-}
-.vehicle-single-details tr td:nth-child(1) {
-  border-radius: 50px 0 0 50px;
-}
-
-.vehicle-single-details tr th:nth-child(1) {
-  border-radius: 50px 0 0 50px;
-}
-
-
-.vehicle-single-details tr td:nth-child(3) {
-  border-radius: 0 50px 50px 0 ;
-  border: 0;
-}
-
-.vehicle-single-details table .table-header {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 10px;
-}
-
-.vehicle-single-details table .table-header th {
-  width: 30%;
-  padding: 14px;
-}
-
-.vehicle-single-details table .table-header th:nth-child(1) {
-  width: 6%;
-}
-
-.vehicle-single-details table .table-header th:nth-child(4) {
-  width: 10%;
-}
-
-.vehicle-single-details table .table-row {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.vehicle-single-details table .table-row td {
-  width: 30%;
-}
-
-.vehicle-single-details table .table-row td:nth-child(1) {
-  width: 6%;
-}
-
-.vehicle-single-details table .table-row td:nth-child(4) {
-  width: 10%;
-}
-
-
-
-
-
-
-
-.vehicle-single-details  .dot {
-  background-color: #000;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  display: block;
-}
-
-
-.vehicle-single-details  .dot.green {
-  background-color: green;
-}
-.vehicle-single-details  .dot.red {
-  background-color: #B71D34;
-}
-
-.vehicle-single-details .dot.orange {
-  background-color: orange;
-}
-
-
-
-.vehicle-single-details .scroll-to-top {
-  position: absolute;
-  right: 5%;
-  bottom: 2%;
-}
-
-.vehicle-single-details .scroll-to-top img {
-  width: 35%;
-}
-
-
-.scroll-to-top {
-  width: 20%;
-  height: fit-content;
-  display: flex;
-  justify-content: flex-end;
-}
-
-
-.scroll-to-top img {
-  cursor: pointer;
-}
-

@@ -7,481 +7,291 @@
     <meta name="description" content="Your Portal to the Next World" />
 
     <style>
-   
-   @font-face {font-family: "Toyota Display Bold";
-      src: url("./assets/fonts/toyota/46520ab4f9b49d8358ed63f2354664c6.eot"); /* IE9*/
-      src: url("./assets/fonts/toyota/46520ab4f9b49d8358ed63f2354664c6.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-      url("./assets/fonts/toyota/46520ab4f9b49d8358ed63f2354664c6.woff2") format("woff2"), /* chrome、firefox */
-      url("./assets/fonts/toyota/46520ab4f9b49d8358ed63f2354664c6.woff") format("woff"), /* chrome、firefox */
-      url("./assets/fonts/toyota/46520ab4f9b49d8358ed63f2354664c6.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-      url("./assets/fonts/toyota/46520ab4f9b49d8358ed63f2354664c6.svg#Toyota Display Bold") format("svg"); /* iOS 4.1- */
-    }
-    @font-face {font-family: "Toyota Display Regular";
-      src: url("./assets/fonts/toyota/1ac36e54c1c9577fb0468937689adfd9.eot"); /* IE9*/
-      src: url("./assets/fonts/toyota/1ac36e54c1c9577fb0468937689adfd9.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-      url("./assets/fonts/toyota/1ac36e54c1c9577fb0468937689adfd9.woff2") format("woff2"), /* chrome、firefox */
-      url("./assets/fonts/toyota/1ac36e54c1c9577fb0468937689adfd9.woff") format("woff"), /* chrome、firefox */
-      url("./assets/fonts/toyota/1ac36e54c1c9577fb0468937689adfd9.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-      url("./assets/fonts/toyota/1ac36e54c1c9577fb0468937689adfd9.svg#Toyota Display Regular") format("svg"); /* iOS 4.1- */
-    }
-
+      @font-face {
+        font-family: "Toyota Display Bold";
+        src: url("./assets/fonts/toyota/46520ab4f9b49d8358ed63f2354664c6.eot"); /* IE9*/
+        src: url("./assets/fonts/toyota/46520ab4f9b49d8358ed63f2354664c6.eot?#iefix")
+            format("embedded-opentype"),
+          /* IE6-IE8 */
+            url("./assets/fonts/toyota/46520ab4f9b49d8358ed63f2354664c6.woff2")
+            format("woff2"),
+          /* chrome、firefox */
+            url("./assets/fonts/toyota/46520ab4f9b49d8358ed63f2354664c6.woff")
+            format("woff"),
+          /* chrome、firefox */
+            url("./assets/fonts/toyota/46520ab4f9b49d8358ed63f2354664c6.ttf")
+            format("truetype"),
+          /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+            url("./assets/fonts/toyota/46520ab4f9b49d8358ed63f2354664c6.svg#Toyota Display Bold")
+            format("svg"); /* iOS 4.1- */
+      }
+      @font-face {
+        font-family: "Toyota Display Regular";
+        src: url("./assets/fonts/toyota/1ac36e54c1c9577fb0468937689adfd9.eot"); /* IE9*/
+        src: url("./assets/fonts/toyota/1ac36e54c1c9577fb0468937689adfd9.eot?#iefix")
+            format("embedded-opentype"),
+          /* IE6-IE8 */
+            url("./assets/fonts/toyota/1ac36e54c1c9577fb0468937689adfd9.woff2")
+            format("woff2"),
+          /* chrome、firefox */
+            url("./assets/fonts/toyota/1ac36e54c1c9577fb0468937689adfd9.woff")
+            format("woff"),
+          /* chrome、firefox */
+            url("./assets/fonts/toyota/1ac36e54c1c9577fb0468937689adfd9.ttf")
+            format("truetype"),
+          /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+            url("./assets/fonts/toyota/1ac36e54c1c9577fb0468937689adfd9.svg#Toyota Display Regular")
+            format("svg"); /* iOS 4.1- */
+      }
     </style>
 
     <title>TOYOUTA-MARKAZIA</title>
 
     <link rel="stylesheet" href="./styles/fonts.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/tablet-screen.css" />
-    <link rel="stylesheet" href="./styles/mobile-screen.css" />
 
     <link
       rel="shortcut icon"
       type="image/png"
       href="./assets/images/favicon_io/favicon.ico"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
   </head>
 
   <body>
-
-
-    <div class="navbar">
-      <img src="./assets/images/toyota-logo.png" alt="toyota-logo">
-      <img src="./assets/images/markazia-logo.png" alt="markazia-logo">
-    </div>
-
-    <div class="block-1">
-      <div class="container">
-        <div class="main-block">
-          <div class="block-content">
-            <h1>Vehicle</h1>
-            <h1>Service</h1>
-            <h1>Report</h1>
-            <p>Regular maintaenance is essential to obtaining the heighest level of performance</p>
-          </div>
-          <div class="block-action">
-            <a href="#block2">
-              <img src="./assets/images/arrow-down-icon.png" alt="arrow-down-icon">
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="block-2" id="block2">
-      <div class="container">
-        <div class="main-block">
-          <div class="custom-btn active">Vehicle Health Indicator</div>
-          <div class="custom-btn">Current Status</div>
-        </div>
-        
-      </div>
-    </div>
-
-    <div class="block-3">
-      <div class="container">
-        <div class="main-block">
-          <div class="gear-note">
-            <img src="./assets/images/big-gear.png" alt="big-gear">
-            <div class="note">Unsafe to Drive</div>
-          </div>
-          <div class="block-content">
-            <h2 class="result">
-              Results
-            </h2>
-            <ul>
-              <li class="info-list-item">
-                <div class="icon">
-                  <img src="./assets/images/block3-icons/braks.png" alt="braks">
-                </div>
-                <span>Brakes</span>
-                <small class="dot red"></small>
-              </li>
-              <li class="info-list-item">
-                <div class="icon">
-                  <img src="./assets/images/block3-icons/suspinsion.png" alt="braks">
-                </div>
-                <span>Suspinsion</span>
-                <small class="dot red"></small>
-              </li>
-              <li class="info-list-item">
-                <div class="icon">
-                  <img src="./assets/images/block3-icons/interior.png" alt="braks">
-                </div>
-                <span>Interior</span>
-                <small class="dot red"></small>
-              </li>
-              <li class="info-list-item">
-                <div class="icon">
-                  <img src="./assets/images/block3-icons/steering.png" alt="braks">
-                </div>
-                <span>Steering</span>
-                <small class="dot red"></small>
-              </li>
-              <li class="info-list-item">
-                <div class="icon">
-                  <img src="./assets/images/block3-icons/power-train.png" alt="braks">
-                </div>
-                <span>Power Train</span>
-                <small class="dot red"></small>
-              </li>
-
-              <li class="info-list-item">
-                <div class="icon">
-                  <img src="./assets/images/block3-icons/engine.png" alt="braks">
-                </div>
-                <span>Engine</span>
-                <small class="dot red"></small>
-              </li>
-
-              <li class="info-list-item">
-                <div class="icon">
-                  <img src="./assets/images/block3-icons/cLutch.png" alt="braks">
-                </div>
-                <span>Clutch</span>
-                <small class="dot green"></small>
-              </li>
-
-              <li class="info-list-item">
-                <div class="icon">
-                  <img src="./assets/images/block3-icons/exterior.png" alt="braks">
-                </div>
-                <span>Exterior</span>
-                <small class="dot green"></small>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="block-footer">
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum necessitatibus quod omnis quam corporis, ab quaerat, pariatur tempore aspernatur unde molestias dolores exercitationem illum est temporibus repellat sequi rerum sunt?
-            corporis, ab quaerat, pariatur tempore aspernatur unde molestias dolores exercitationem illum est temporibus repellat sequi rerum sunt?
-          </p>
-          <a href="#block4">
-            <img src="./assets/images/arrow-down-icon.png" alt="arrow-down-icon">
-          </a>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="block-4" id="block4">
-      <div class="container">
-        <div class="main-block">
-          <a href="#customer-details" class="custom-btn active">
-            <img src="./assets/images/customer.png" alt="customer">
-            <span>Customer Details</span>
-          </a>
-          <a href="#vehicle-status" class="custom-btn">
-            <img src="./assets/images/vehicle.png" alt="customer">
-            <span>Vehicle Status</span>
-          </a>
-        </div>
-        <a href="#block2" class="scroll-to-top" >
-          <img src="./assets/images/arrow-up.png" alt="arrow-up">
-        </a>
-      </div>
-    </div>
-
-
-    <div id="customer-details">
-      <div class="block-5" id="block5">
-        <div class="container">
-          <div class="main-block">
-            <div class="custom-btn active">Vehicle Health Indicator</div>
-            <div class="custom-btn">
-              <img src="./assets/images/user.png" alt="user">
-              Customer details
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="customer-details">
-        <div class="container">
-          <div class="main-block">
-           
-            <div class="user-profile">
-              <div class="profile-pic">
-                <img src="./assets/images/profile-pic.png" alt="profile-pic">
+    <form class="form col-lg-5 col-md-9 col-sm-10 col-10">
+      <h4 class="form-title">Request an Appointment</h4>
+      <div class="form-controll">
+        <div class="col-auto">
+          <label class="sr-only" for="inlineFormInputGroup"
+            >Client Name *</label
+          >
+          <div class="input-group mb-0">
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                <i class="fa-solid fa-user"></i>
               </div>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae fugit repellendus suscipit cumque veritatis optio dolor laboriosam perferendis in ducimus unde nam fugiat sed quia, tempora aut, deserunt modi magni?
-                laboriosam perferendis in ducimus unde nam fugiat sed quia, tempora aut, deserunt modi magni?
-              </p>
             </div>
-
-            <div class="details">
-              <h2 class="welcome-msg">
-                Hello, Joe!
-              </h2>
-              <ul>
-                <li>
-                  <div class="item-left">
-                    <label>Customer Name</label>
-                    <span>JOE AL-JOE</span>
-                  </div>
-                  <div class="item-right">
-                    <label>Customer Number</label>
-                    <span>+9628979898</span>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="item-left">
-                    <label>Car</label>
-                    <span>TOYOTA</span>
-                  </div>
-                  <div class="item-right">
-                    <label>Model</label>
-                    <span>804840978</span>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="item-left">
-                    <label>Plate No.</label>
-                    <span>LOREM IPSUM</span>
-                  </div>
-                  <div class="item-right">
-                    <label>Model</label>
-                    <span>20389 - IPSUM</span>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="item-left">
-                    <label>Car</label>
-                    <span>TOYOTA</span>
-                  </div>
-                  <div class="item-right">
-                    <label>Model</label>
-                    <span>804840978</span>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="item-left">
-                    <label>Plate No.</label>
-                    <span>LOREM IPSUM</span>
-                  </div>
-                  <div class="item-right">
-                    <label>Model</label>
-                    <span>20389 - IPSUM</span>
-                  </div>
-                </li>
-
-              </ul>
-            </div>
-
+            <input
+              required
+              type="text"
+              class="form-control"
+              id="inlineFormInputGroup"
+              placeholder="Client Name *"
+            />
           </div>
-          <a href="#block4" class="scroll-to-top">
-            <img src="./assets/images/arrow-up.png" alt="arrow-up">
-          </a>
+          <!-- <small class="text-danger fw-500">Looks good!</small> -->
         </div>
       </div>
 
-    </div>
+      <div class="form-controll">
+        <div class="col-auto">
+          <div class="w-100 input-group mb-0">
+            <input
+              required
+              class="w-100 form-control"
+              id="phone"
+              type="tel"
+              name="phone"
+              value="+962"
+              placeholder="Phone number: *"
+              onchange="process(event)"
+            />
+          </div>
+          <small class="alert-info"></small>
+        </div>
+      </div>
 
-    <div id="vehicle-status">
-      <div class="block-5" id="block5">
-        <div class="container">
+      <!-- <p>Enter your phone number:</p> -->
+      <!-- <input type="submit" class="btn" value="Verify" /> -->
 
-          <div class="main-block">
-            <div class="custom-btn active">Vehicle Health Indicator</div>
-            <div class="custom-btn display-icons-info">
-              <img src="./assets/images/svehicle-sm.png" alt="user">
-              Vehicle Status 
-              <img src="./assets/images/list-arrow.png" class="list-arrow" alt="list-arrow">
+      <div class="form-controll">
+        <div class="col-auto">
+          <div class="input-group mb-0">
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                <i class="fas fa-envelope"></i>
+              </div>
             </div>
+            <input
+              required
+              type="text"
+              class="form-control"
+              id="inlineFormInputGroup"
+              placeholder="Email Address *"
+            />
           </div>
-
-          <div class="information-icons">
-            <img src="./assets/images/information-icons.png" alt="information-icons">
-          </div>
+          <!-- <small class="text-danger fw-500">Looks good!</small> -->
         </div>
       </div>
 
-      <div class="vehicle-status" >
-        <div class="container">
-          <div class="main-block">
-           
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla excepturi dicta iusto. Dolorem minus beatae, maiores expedita possimus, iure numquam nulla officiis necessitatibus ad incidunt praesentium distinctio nam exercitationem quae.
-            </p>
-            
-            <div class="vehicle-status-list" >
-              <a href="#under-vehicle">
-                <img src="./assets/images/vehicle-status-icons/under-vehicle.png" alt="under-vehicle">
-                <span>Under the Vehicle</span>
-              </a>
-              <a href="#under-vehicle">
-                <img src="./assets/images/vehicle-status-icons/inside-vehicle.png" alt="inside-vehicle">
-                <span>Inside Vehicle</span>
-              </a>
-              <a href="#under-vehicle">
-                <img src="./assets/images/vehicle-status-icons/brakets.png" alt="brakets">
-                <span>Brakes, Tires & Bodies</span>
-              </a>
-              <a href="#under-vehicle">
-                <img src="./assets/images/vehicle-status-icons/car-vehical.png" alt="outside-vehical">
-                <span>Outside Vehicle</span>
-              </a>
-              <a href="#under-vehicle">
-                <img src="./assets/images/vehicle-status-icons/engine-room.png" alt="engine-room">
-                <span>Engine Room</span>
-              </a>
+      <div class="form-controll">
+        <div class="col-auto">
+          <div class="input-group mb-0">
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+              </div>
             </div>
-            <a href="#block4" class="scroll-to-top" >
-              <img src="./assets/images/arrow-up.png" alt="arrow-up">
-            </a>
+            <select class="form-select" aria-label=" example">
+              <option selected>Service Center *</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
           </div>
-          
+          <!-- <small class="text-danger fw-500">Looks good!</small> -->
         </div>
       </div>
 
-    </div>
-
-
-    <div class="vehicle-single-details" id="under-vehicle">
-      <div class="container">
-
-        <div class="big-label">
-          <div class="label">
-            <img src="./assets/images/vehicle-status-icons/under-vehicle.png" alt="under-vehicle">
-            <span>Under the Vehicle</span>
+      <div class="form-controll">
+        <small for="text-default mb-2">Appointment Date *</small>
+        <div class="col-auto">
+          <div class="input-group mb-0">
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                <i class="fa-solid fa-calendar-week"></i>
+              </div>
+            </div>
+            <input type="date" class="form-control date-input" id="date" />
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, ullam repellat harum assumenda iusto delectus obcaecati minus voluptatem doloremque consequuntur cupiditate quas laborum dicta explicabo blanditiis libero? Asperiores, nam ex?
-          </p>
-          
+          <!-- <small class="text-danger fw-500">Looks good!</small> -->
         </div>
-        <div class="information-icons">
-          <img src="./assets/images/information-icons.png" alt="information-icons">
-        </div>
-
-        <!-- <div class="table">
-          <div class="table-th">
-            <span>Item</span>
-            <span>Rate</span>
-            <span>Reason</span>
-          </div>
-          <div class="table-tr">
-            <td>GUIDANCE SYSTEM</td>
-            <td> <small class="dot green"></small> </td>
-            <td></td>
-          </div>
-        </div> -->
-        <table>
-          <tr class="table-header">
-            <th>Rate</th>
-            <th>Reason</th>
-            <th>Note</th>
-            <th>Image</th>
-          </tr>
-        
-
-          <tr class="table-row">
-            <td> 
-              <div class="table-tr-title">
-                <span>Item En:</span> <small>Title lorem ipsum lo</small> <br/>
-                <span>Item Ar:</span> <small>عنوان كبير كبير جدا جدا</small>
-              </div>
-              <small class="dot green"></small> 
-            </td>
-            <td>
-              <small>Lorem, ipsum dolor sit a Quo,</small>
-            </td>
-            <td>
-              <small>voluptatibus doloremque  vel et porro at?</small>
-            </td>
-            <td></td>
-          </tr>
-          
-          <tr class="table-row">
-            <td> 
-              <div class="table-tr-title">
-                <span>Item En:</span> <small>Title lorem ipsum lo</small> <br/>
-                <span>Item Ar:</span> <small>عنوان كبير كبير جدا جدا</small>
-              </div>
-              <small class="dot green"></small> 
-            </td>
-            <td>
-              <small>Lorem, ipsum dolor sit a Quo,</small>
-            </td>
-            <td>
-              <small>voluptatibus doloremque  vel et porro at?</small>
-            </td>
-            <td></td>
-          </tr>
-          <tr class="table-row">
-            <td> 
-              <div class="table-tr-title">
-                <span>Item En:</span> <small>Title lorem ipsum lo</small> <br/>
-                <span>Item Ar:</span> <small>عنوان كبير كبير جدا جدا</small>
-              </div>
-              <small class="dot green"></small> 
-            </td>
-            <td>
-              <small>Lorem, ipsum dolor sit a Quo,</small>
-            </td>
-            <td>
-              <small>voluptatibus doloremque  vel et porro at?</small>
-            </td>
-            <td></td>
-          </tr>
-          <tr class="table-row">
-            <td> 
-              <div class="table-tr-title">
-                <span>Item En:</span> <small>Title lorem ipsum lo</small> <br/>
-                <span>Item Ar:</span> <small>عنوان كبير كبير جدا جدا</small>
-              </div>
-              <small class="dot green"></small> 
-            </td>
-            <td>
-              <small>Lorem, ipsum dolor sit a Quo,</small>
-            </td>
-            <td>
-              <small>voluptatibus doloremque  vel et porro at?</small>
-            </td>
-            <td></td>
-          </tr>
-
-   
-        </table>
-        <a href="#vehicle-status" class="scroll-to-top" >
-          <img src="./assets/images/arrow-up.png" alt="arrow-up">
-        </a>
-
       </div>
-    </div>
 
+      <div class="">
+        <small for="text-default mb-2">Available Slots *</small>
+        <div>
+          <div class="slots">
+            <div>09:00 : 09:15</div>
+            <div>09:15 : 09:30</div>
+            <div>09:30 : 09:45</div>
+            <div>09:45 : 10:00</div>
+          </div>
+          <div class="slots">
+            <div>10:00 : 10:15</div>
+            <div>10:15 : 10:30</div>
+            <div>10:30 : 10:45</div>
+            <div>10:45 : 11:00</div>
+          </div>
+          <!-- <small class="text-danger fw-500">Looks good!</small> -->
+        </div>
+      </div>
 
+      <div class="form-controll">
+        <div class="col-auto">
+          <div class="input-group mb-0">
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                <i class="fa-solid fa-car-side"></i>
+              </div>
+            </div>
+            <select class="form-select" aria-label=" example">
+              <option selected>Model Name *</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <!-- <small class="text-danger fw-500">Looks good!</small> -->
+        </div>
+      </div>
 
-    
+      <div class="form-controll">
+        <div class="col-auto">
+          <div class="input-group mb-0">
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+              </div>
+            </div>
+            <select class="form-select" aria-label=" example">
+              <option selected>Service Type *</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <!-- <small class="text-danger fw-500">Looks good!</small> -->
+        </div>
+      </div>
 
-    <script>
-      document.querySelectorAll(".vehicle-status-list a").forEach(v => {
-        v.addEventListener("click", () => {
-          document.querySelector(".vehicle-single-details").classList.add("active")
-          let src = v.querySelector("img").getAttribute("src")
-          let title = v.querySelector("span").textContent
-          document.querySelector(".vehicle-single-details .label img").setAttribute("src", src)
-          document.querySelector(".vehicle-single-details .label span").textContent = title 
-        })
-      })
+      <div class="form-controll">
+        <div class="col-auto">
+          <label class="sr-only" for="inlineFormInputGroup"
+            >Client Name *</label
+          >
+          <div class="input-group mb-0">
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                <i class="fa-solid fa-mobile-screen"></i>
+              </div>
+            </div>
+            <input
+              required
+              type="text"
+              class="form-control"
+              id="inlineFormInputGroup"
+              placeholder="Comments / Descreption"
+            />
+          </div>
+          <!-- <small class="text-danger fw-500">Looks good!</small> -->
+        </div>
+      </div>
 
-
-      document.querySelector(".display-icons-info").addEventListener('click', () => {
-        let infoIcons = document.querySelector(".block-5 .information-icons")
-        if(infoIcons.classList.contains("active")) {
-          document.querySelector(".display-icons-info").classList.remove('list-opened')
-          infoIcons.classList.remove("active")
-        } else {
-          document.querySelector(".display-icons-info").classList.add('list-opened')
-          infoIcons.classList.add("active")
-        }
-      })
-
-    </script>
+      <div class="col-12">
+        <button class="btn btn-primary w-100 mt-2" type="submit">
+          Book Now
+        </button>
+      </div>
+    </form>
   </body>
+
+  <script>
+    const phoneInputField = document.querySelector("#phone");
+    const phoneInput = window.intlTelInput(phoneInputField, {
+      preferredCountries: ["jo", "co", "in", "de"],
+      utilsScript:
+        "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+    });
+    const info = document.querySelector(".alert-info");
+
+    function process(event) {
+      event.preventDefault();
+      const phoneNumber = phoneInput.getSelectedCountryData();
+      const isValidNumber = phoneInput.isValidNumber();
+      // document.querySelector("#phone").value = phoneNumber;
+      console.log("phoneNumber", phoneNumber);
+      console.log("isValidNumber", isValidNumber);
+      info.style.display = "";
+      info.innerHTML = `Phone number in E.164 format: <strong>${phoneNumber}</strong>`;
+    }
+
+    // function checkOnNumber(event) {
+    //   event.preventDefault();
+    //   console.log("phone:", event.target.value);
+    //   // document.querySelector("#phone").value = phoneNumber;
+    //   // console.log("phoneNumber", phoneNumber);
+    //   // info.style.display = "";
+    //   // info.innerHTML = `Phone number in E.164 format: <strong>${phoneNumber}</strong>`;
+    // }
+  </script>
 </html>
